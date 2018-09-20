@@ -1,3 +1,17 @@
+## 6.0.1 (2018-09-14)
+
+### Bug fixes
+
+Fix bad "main" field in package.json.
+
+## 6.0.0 (2018-09-14)
+
+### Breaking changes
+
+This is now a separate package, `acorn-walk`, rather than part of the main `acorn` package.
+
+The `ScopeBody` and `ScopeExpression` meta-node-types are no longer supported.
+
 ## 5.7.1 (2018-06-15)
 
 ### Bug fixes

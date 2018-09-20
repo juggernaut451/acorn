@@ -2,9 +2,9 @@
   "name": "acorn-walk",
   "description": "ECMAScript (ESTree) AST walker",
   "homepage": "https://github.com/acornjs/acorn",
-  "main": "dist/acorn-walk.js",
-  "module": "dist/acorn-walk.mjs",
-  "version": "6.0.0",
+  "main": "dist/walk.js",
+  "module": "dist/walk.mjs",
+  "version": "6.0.1",
   "engines": {"node": ">=0.4.0"},
   "maintainers": [
     {
@@ -19,12 +19,15 @@
     },
     {
       "name": "Adrian Heine",
-      "email": "http://adrianheine.de"
+      "web": "http://adrianheine.de"
     }
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/acornjs/acorn.git"
+  },
+  "scripts": {
+    "prepare": "cd ..; npm run build:walk"
   },
   "license": "MIT"
 }
